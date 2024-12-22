@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Training artifacts
+checkpoints/
+runs/
+wandb/
+*.pth
+*.pt
+*.ckpt
+
+# Data
+data/
+*.json
+*.jsonl
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# AWS
+*.pem
+.aws/
+
+# Logs
+*.log 
